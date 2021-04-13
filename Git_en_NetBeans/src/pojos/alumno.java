@@ -14,6 +14,8 @@ public class alumno {
    private int numAl;
    private String nombre;
    private String apellido;
+   private String ciclo;
+   private String curso;
 
     public alumno(int numAl, String nombre, String apellido) {
         this.numAl = numAl;
@@ -24,7 +26,7 @@ public class alumno {
     public int getNumAl() {
         return numAl;
     }
-
+    
     public void setNumAl(int numAl) {
         this.numAl = numAl;
     }
